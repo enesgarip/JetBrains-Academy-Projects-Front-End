@@ -1,0 +1,92 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="utf-8">
+    <title>Hello, World!</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <script src="script.js"></script>
+</head>
+<body>
+
+<header>
+    <div class="topnav">
+    <div class="navbar-container">
+        <a href="javascript:void(0);" class="icon" onclick="myFunction()">
+            <i class="fa fa-bars"></i></a>
+    <h3>Menu</h3>
+    <nav class="hamburger" id="hamburger">
+        <a href="#about">About Me</a>
+        <a href="#portfolio">Portfolio</a>
+        <a href="#contacts">Contacts</a>
+    </nav>
+    </div>
+    </div>
+    <p>Jane Doe,<br>Front-end developer</p>
+</header>
+
+<section id="about">
+<h2>About me</h2>
+<img src="site/person.jpeg" alt="profile" id="profile">
+<img src="site/image.jpg" alt="image" id="image">
+    <div class="aboutMe">
+<p>Objectives
+    Come up with a header for your future site and wrap it in a proper tag for a first-level heading.
+    Create a second-level heading with the text "About me".
+    Place your photo or any image that will represent you.
+    Put at least one paragraph of text on the site: this will be the personal biography section.
+    Create another second-level heading with the text "Portfolio".
+    Place at least one image that will represent your work experience and achievements.
+    Put a title or a project name under each image so that they don't appear out of context.</p>
+    </div>
+</section>
+
+<section id="portfolio">
+    <h2>Portfolio</h2>
+    <div id="pro1">
+<img src="site/project1.png" alt="project1">
+        <button class="open-window">Flashcards</button>
+    </div>
+    <div class="window popup">
+        <div>
+            <h1>Flashcards</h1>
+            <p>You can see the project at the following link
+                <a href="https://flashcard.com" title="flashcard">flashcards</a> </p><br>
+            <p>I did this project when I was studying the frontend on Hyperskill. I created<br>
+                a web page with flip-down flash cards, learned some HTML basics and<br>
+                learned that CSS can easily make a beautiful design.</p>
+            <button class="close-window">Close</button>
+        </div>
+    </div>
+
+    <div id="pro2">
+<img src="site/project2.png" alt="project2">
+    <p>Virtual Piano</p>
+        <p id="piano"><button class="open-window1">Piano</button></p>
+    </div>
+    <div class="window1 popup">
+        <div>
+            <h1>Flashcards</h1>
+            <p>You can see the project at the following link
+                <a href="https://flashcard.com" title="flashcard">flashcards</a> </p><br>
+            <p>I did this project when I was studying the frontend on Hyperskill. I created<br>
+                a web page with flip-down flash cards, learned some HTML basics and<br>
+                learned that CSS can easily make a beautiful design.</p>
+            <button class="close-window1">Close</button>
+        </div>
+    </div>
+</section>
+<section id="contacts">
+    <h2>Contacts</h2>
+    <img src="site/facebook.svg">
+    <img src="site/twitter.svg">
+    <img src="site/github.svg">
+    <img src="site/instagram%201.svg">
+</section>
+</body>
+<footer>
+    <p>JANE DOE</p>
+    <p>2020</p>
+
+</footer>
+</html>

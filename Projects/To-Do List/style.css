@@ -1,0 +1,10 @@
+#task-list input:checked ~ .task {
+    text-decoration: line-through;
+}
+body{
+	text-align: center;
+	margin-top: 20%;
+}
+#task-list{
+	 list-style-position: inside;
+}

@@ -1,0 +1,26 @@
+.header{
+    text-align: center;
+    color: blue;
+    font-family: "Comic Sans MS", monospace;
+}
+.container{
+    display: grid;
+    grid-template-columns: auto auto auto;
+    grid-gap: 50px 50px;
+    background: #64e7ff;
+}
+.grid-item{
+    font-family: "Comic Sans MS", monospace;
+    margin: 100px;
+    width: 100px;
+    height: 100px;
+    background-color: white;
+    color: blue;
+    text-align: center;
+    border: 1px solid black;
+    padding: 50px;
+    border-radius: 20px;
+}
+body{
+    background: #ff6a5e;
+}
